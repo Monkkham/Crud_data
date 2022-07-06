@@ -7,20 +7,51 @@
     tools:context=".MainActivity">
 
     <ListView
+        android:id="@+id/myListView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/myListView"/>
+        android:layout_height="181dp" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_add_black_24dp"
-        android:onClick="btn_add_activity"
-        android:layout_alignParentBottom="true"
+    <TextView
+        android:id="@+id/textView"
+        android:textSize="40dp"
+        android:layout_width="123dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="159dp"
+        android:text="3cw1" />
+
+    <Button
+        android:layout_width="147dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="159dp"
         android:backgroundTint="@color/colorPrimary"
-        android:layout_alignParentRight="true"
-        android:layout_margin="30dp"
-        />
+        android:onClick="btn_add_activity"
+        android:src="@drawable/ic_add_black_24dp"
+        android:text="ປ້ອນຂໍ້ມູນ"
+        android:textColor="#FBFAFA" />
 
+    <Button
+        android:layout_width="147dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="159dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="btn_show_list"
+        android:src="@drawable/ic_add_black_24dp"
+        android:text="ສະເເດງຂໍ້ມູນ"
+        android:textColor="#F4F2F2" />
 
 </RelativeLayout>

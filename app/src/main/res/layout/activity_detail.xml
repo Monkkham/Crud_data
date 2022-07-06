@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ID:"
+        android:text="ລະຫັດ:"
         android:textSize="20sp"
         android:id="@+id/txtid"
         android:layout_marginBottom="10dp"
@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Name:"
+        android:text="ຊື່:"
         android:textSize="20sp"
         android:id="@+id/txtname"
         android:layout_marginBottom="10dp"
@@ -27,7 +27,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Email:"
+        android:text="ອີເມວ:"
         android:textSize="20sp"
         android:id="@+id/txtemail"
         android:layout_marginBottom="10dp"
@@ -35,7 +35,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Contact:"
+        android:text="ເບີໂທ:"
         android:textSize="20sp"
         android:id="@+id/txcontact"
         android:layout_marginBottom="10dp"
@@ -43,7 +43,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Address:"
+        android:text="ທີ່ຢູ່:"
         android:textSize="20sp"
         android:id="@+id/txtaddress"
         android:layout_marginBottom="10dp"

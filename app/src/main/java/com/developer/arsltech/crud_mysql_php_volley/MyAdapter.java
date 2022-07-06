@@ -1,6 +1,7 @@
 package com.developer.arsltech.crud_mysql_php_volley;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,7 +21,6 @@ public class MyAdapter extends ArrayAdapter<Employee> {
 
     public MyAdapter(@NonNull Context context, List<Employee> arrayListEmployee) {
         super(context, R.layout.custom_list_item,arrayListEmployee);
-
         this.context = context;
         this.arrayListEmployee = arrayListEmployee;
 

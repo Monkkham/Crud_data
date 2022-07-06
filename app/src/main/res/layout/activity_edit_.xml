@@ -12,7 +12,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="ID"
+        android:hint="ລະຫັດ"
         android:id="@+id/ed_id"
         android:textSize="20sp"
         android:enabled="false"
@@ -20,7 +20,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Name"
+        android:hint="ຊື່"
         android:id="@+id/ed_name"
         android:textSize="20sp"
         android:layout_marginTop="10dp"
@@ -28,7 +28,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"
+        android:hint="ອີເມວ"
         android:id="@+id/ed_email"
         android:textSize="20sp"
         android:layout_marginTop="10dp"
@@ -36,7 +36,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Contact"
+        android:hint="ເບີໂທ"
         android:id="@+id/ed_contact"
         android:textSize="20sp"
         android:layout_marginTop="10dp"
@@ -44,7 +44,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Address"
+        android:hint="ທີ່ຢູ່"
         android:id="@+id/ed_address"
         android:textSize="20sp"
         android:layout_marginTop="10dp"
@@ -53,7 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:backgroundTint="@color/colorPrimary"
-        android:text="Update"
+        android:text="ອັບເດດຂໍ້ມູນ"
         android:textSize="18sp"
         android:layout_marginTop="10dp"
         android:textColor="@android:color/white"

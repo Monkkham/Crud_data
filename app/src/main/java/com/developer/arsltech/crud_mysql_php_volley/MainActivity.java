@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     ListView listView;
     MyAdapter adapter;
     public static ArrayList<Employee> employeeArrayList = new ArrayList<>();
-    String url = "https://arsltechmysql.000webhostapp.com/retrieve.php";
+    String url = "https://laosmkpdr.000webhostapp.com/retrieve.php";
     Employee employee;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 AlertDialog.Builder builder = new AlertDialog.Builder(view.getContext());
                 ProgressDialog progressDialog = new ProgressDialog(view.getContext());
 
-                CharSequence[] dialogItem = {"View Data","Edit Data","Delete Data"};
+                CharSequence[] dialogItem = {"ເບິ່ງຂໍ້ມູນ","ແກ້ໄຂຂໍ້ມູນ","ລຶບຂໍ້ມູນ"};
                 builder.setTitle(employeeArrayList.get(position).getName());
                 builder.setItems(dialogItem, new DialogInterface.OnClickListener() {
                     @Override
@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void deleteData(final String id) {
 
-        StringRequest request = new StringRequest(Request.Method.POST, "https://arsltechmysql.000webhostapp.com/delete.php",
+        StringRequest request = new StringRequest(Request.Method.POST, "https://laosmkpdr.000webhostapp.com/delete.php",
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
@@ -171,22 +171,11 @@ public class MainActivity extends AppCompatActivity {
 
                                 }
 
-
-
                             }
-
-
-
-
                         }
                         catch (JSONException e){
                             e.printStackTrace();
                         }
-
-
-
-
-
 
                     }
                 }, new Response.ErrorListener() {
@@ -199,11 +188,11 @@ public class MainActivity extends AppCompatActivity {
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         requestQueue.add(request);
 
-
-
-
     }
     public void btn_add_activity(View view) {
         startActivity(new Intent(getApplicationContext(),Add_Data_Activity.class));
+    }
+    public void btn_show_list(View view) {
+        startActivity(new Intent(getApplicationContext(),Listview.class));
     }
 }

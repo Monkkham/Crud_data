@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="5dp"
     >
+
 
     <TextView
         android:layout_width="40dp"
@@ -15,15 +18,14 @@
         android:textSize="20sp"
         android:textColor="@android:color/white"
         android:background="@drawable/circle"/>
+
     <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="50dp"
         android:id="@+id/txt_name"
-        android:text="Employee Name"
-        android:gravity="center_vertical"
-        android:textSize="20sp"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
         android:layout_marginLeft="10dp"
-        />
-
-
+        android:gravity="center_vertical"
+        android:text="ລາຍການຜູ້ໃຊ້"
+        android:textSize="20sp" />
 </LinearLayout>
+

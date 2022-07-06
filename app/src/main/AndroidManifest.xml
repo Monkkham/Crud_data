@@ -13,7 +13,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Edit_Activity"></activity>
+        <activity android:name=".Edit_Activity">
+
+        </activity>
+        <activity android:name=".Listview"
+            tools:ignore="Instantiatable" />
         <activity android:name=".DetailActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

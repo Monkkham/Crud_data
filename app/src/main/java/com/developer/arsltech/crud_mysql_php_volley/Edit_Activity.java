@@ -66,7 +66,7 @@ public class Edit_Activity extends AppCompatActivity {
         progressDialog.setMessage("Updating....");
         progressDialog.show();
 
-        StringRequest request = new StringRequest(Request.Method.POST, "https://arsltechmysql.000webhostapp.com/update.php",
+        StringRequest request = new StringRequest(Request.Method.POST, "https://laosmkpdr.000webhostapp.com/update.php",
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {

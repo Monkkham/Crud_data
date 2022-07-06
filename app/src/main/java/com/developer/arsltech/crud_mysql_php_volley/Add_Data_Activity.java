@@ -73,7 +73,7 @@ public class Add_Data_Activity extends AppCompatActivity {
 
         else{
                 progressDialog.show();
-            StringRequest request = new StringRequest(Request.Method.POST, "https://arsltechmysql.000webhostapp.com/insert.php",
+            StringRequest request = new StringRequest(Request.Method.POST, "https://laosmkpdr.000webhostapp.com/insert.php",
                     new Response.Listener<String>() {
                         @Override
                         public void onResponse(String response) {
